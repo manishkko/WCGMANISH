@@ -135,5 +135,5 @@ Config files for my GitHub profile.
       <LI><a HREF="https://www.youtube.com/channel/UClTd_qcrNL2De5p09pMr-vw" target="BLANK">CLICK HERE</a></LI>
     </UL>
   </UL>
-  <a href="FORM TUTORIUAL.html" target="BLANK">APPLY FOR TOURNAMENT</a>
+  <a href="INDEX.html" target="BLANK">APPLY FOR TOURNAMENT</a>
 </body>                                                                                    
