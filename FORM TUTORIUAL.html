@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <!--is HTML forms tutorial-->
+
+
+    <h2>APPLY FOR TOURNAMENT</h2>
+    <form action="backend.php">
+<hr>
+    <div><br>
+        <label for="name" >NAME:</label>
+       <input type="TEXT" name="MY NAME" id="name">
+    </div>
+    <div><BR>
+        <label for="ffid" >FF ID:</label>
+       <input type="text" name="myrole" id="ffid">
+    </div><br>
+     <div>
+        <label for="email"> EMAIL ID:</label> 
+        <input type="email" name="myemail" id="email"></div>
+    </div><br>
+    <div>
+       <label for="whatsaap"> WHATSAPP NO:</label> 
+       <input type="number" name="whatsaap" id="whatsaap"></div>
+     <BR>
+        <div>
+            <label for="date">REGISTERATION DATE:</label>
+            <input type="date" name="my date" ID="date"></div>
+        <br>
+        <div>
+            <label for="eligible">Are you above 18?:</label>
+             <input type="checkbox" name="myeligible" id="eligible"></div>
+        <br>
+        DEVICE:  <input type="radio" name="DEVICE">ANDROID  <input type="radio" name="DEVICE"> IPHONE  <input type="radio" name="DEVICE"> PC
+    
+        <div><BR><label FOR="mode">MODE:</label>
+        <select name="mode" id="mode">
+            <option value="none">NONE</option>
+            <option value="classic">CLASSIC</option>
+            <option value="class">CLASH SQUADE</option>
+        </select></div>
+        <div><BR><label FOR="map">MAP:</label>
+            <select name="map" id="map">
+                <option value="none">NONE</option>
+                <option value="bermuda">BERMUDA</option>
+                <option value="purgatory">PURGATORY</option>
+                <option value="alpine">ALPINE</option>
+                <option value="bermuda remastered">BERMUDA REMASTERED</option>
+                <option value="kalahari">KALAHARI</option>
+            </select></div>
+            <div><BR> <label FOR="player">PLAYER:</label>
+            <select name="player" id="player">
+                <option value="none">NONE</option>
+                <option value="solo">SOLO</option>
+                <option value="duo">DUO</option>
+                <option value="squade">SQUADE</option>
+                <option value="6">ONLY FOR CS 6V6</option>
+            </select>
+            </div>
+        
+        <div>
+            <br>
+<label for="LEVEL">WHAT IS YOUR FF LEVEL ?: </label>
+        <input type="number" name="LEVEL" id="LEVEL">
+    </div>
+    <br>
+    <label for="yourself"> write about your self:</label><br>
+       <textarea  name="mytext" cols="80" rows="10" id="yourself"></textarea>
+    <br>
+        <div><INPUT TYPE="submit" value="SUBMIT NOW">
+        <input type="reset" value="reset">
+    </div>
+    </form>
+    
+</body>
+</html>
